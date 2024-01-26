@@ -11,7 +11,7 @@ Le projet consite a crée un appareil de est capable de récuprer les donnée pr
 
 #
 
-![SHT31 Schema](images/schema_sht31.jpg)
+![SHT31 Schema](images/schema.jpg)
 
 ## Rasberry Pi 3
 
