@@ -4,6 +4,7 @@ Le projet consite a crée un appareil de est capable de récuprer les donnée pr
 
 ## Sommaire
 
+- [Schema](schema)
 
 ## Schéma
 - <font color="red"> rouge </font> : **5V**
@@ -21,7 +22,7 @@ Un écran de 7 pouce va se trouver sur le boitier qui va acceuir le tout, il per
 
 Un point d'acces au réseau local permetera la consultation de ses donnée depuis ce dernier de maniere sécurisé.
 
-L'OS du rpi est : **Rasberry pi OS 64 bits**
+L'OS du rpi est : **Raspberry pi OS 64 bits**
 
 ## SHT31-D
 
@@ -45,7 +46,7 @@ L'interet du multiplexer est de permettre de mettre 8 autres port I2C, grace au 
     <img src="images/max31856.jpg">
 </p>
 
-Le module de Adafruit MAX31856 permet d'amblifier et de lire la température d'un thermocouple, le module est polyvalent et s'adapte en fonction du type de thermocouple utilisé, dans notre cas un K, les thermocouples de ce type sont conçus principalement pour les mesures de température générales dans des atmosphères les plus courantes donc parfait pour notre utilisation.
+Le module de Adafruit MAX31856 permet d'amblifier et de lire la température d'un thermocouple il utile pour cela le canal SPI. Le module est polyvalent et s'adapte en fonction du type de thermocouple utilisé, dans notre cas un K, les thermocouples de ce type sont conçus principalement pour les mesures de température générales dans des atmosphères les plus courantes donc parfait pour notre utilisation.
 
 ## Fonctionnement
 
@@ -57,7 +58,6 @@ Sur le desktop de l'user par défaut (User) on retrouvera un répertoire `"progr
 Dans /python :
 - ``sht-reader.py`` (lit les données des capteurs SHT et les envoi dans la BDD)
 - ``max31856-reader.py`` (lit les données du thermocouple et les envoi dans la BDD)
-- ``recover-to-txt.py`` (lit les données et les envoi dans un fichier ``data.txt`` sur le bureau et dans la clé)
 
 Dans /scripts :
 - ``apache2.sh`` (installation de apache2)
