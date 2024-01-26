@@ -1,6 +1,5 @@
-# Affichage donnée ambiante via un Rasberry Pi
-
-Le projet consite a crée un appareil de est capable de récuprer les donnée produite par des capteurs SHT31-D
+# MultiSense Hub
+Le projet consite a crée un appareil de est capable de récuprer les donnée produite par des capteurs SHT31-D et d'un thermocouple puis de les afficher sur une interface web.
 
 ## Sommaire
 
