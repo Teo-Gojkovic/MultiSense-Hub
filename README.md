@@ -1,4 +1,4 @@
-# MultiSense Hub
+# ![logo](images/logo/MultiSense-hub_trasparent1.png)
 
 MultiSense-Hub est un projet développé au sein du Laboratoire Universitaire Hubert Curien lors de mon dernier stage. Il s’agit d’un appareil polyvalent conçu pour collecter les données environnementales. MultiSense-Hub utilise des capteurs SHT31-D et un thermocouple pour recueillir des données précises, qui sont ensuite affichées sur une interface web pour une analyse facile et accessible. L’objectif à long terme de MultiSense-Hub est d’intégrer une variété de capteurs supplémentaires, augmentant ainsi sa polyvalence et sa capacité à surveiller divers aspects de l’environnement.
 
