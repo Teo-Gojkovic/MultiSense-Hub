@@ -76,3 +76,22 @@ Dans /scripts :
 - ``apache2.sh`` (installation de apache2)
 - ``phpmyadmin.sh`` (installation de phpmyadmin)
 - ``python-venv-libs.sh`` (création et installation de l'envirenement avec toutes les bibliotheque)
+
+## Utilisé par
+
+- Laboratoire Hubert Curien - Université Jean MONNET
+
+## Licence : CC Attribution-NonCommercial-ShareAlike 4.0 International
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+Ce trvail est sous la licence [Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+## Auteur
+[![Teo GOJKOVIC](https://img.shields.io/badge/Teo_GOJKOVIC-222e45?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Teo-Gojkovic)
